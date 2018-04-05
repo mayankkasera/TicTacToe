@@ -40,9 +40,13 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:layout_weight="1.5"
+                android:background="@drawable/border"
                 android:onClick="playagain"
-                android:text="Play Again" />
+                android:text="Play Again"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
